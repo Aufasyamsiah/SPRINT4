@@ -53,8 +53,8 @@ if (isset($_POST['submit'])) {
 session_start();
 unset($_SESSION['username']);
 ?>
-<h2>Terima Kasih</h2>
+<h2>Silahkan</h2>
 <p>
-Anda telah logout dari system.
-Klik <a href="index.php">disini</a> untuk logout.
+
+Klik <a href="logout.php">disini</a> untuk logout.
 </p>
