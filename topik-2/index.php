@@ -1,3 +1,8 @@
+<?php
+
+session_start();
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +13,7 @@
 </head>
 <body>
     <h1>User Session Login DB</h1>
-    <form action="login.php" method="post">
+    <form action="barang.php" method="post">
         <label for="">Nama</label>
         <input type="text" name="name">
         <label for="">Password</label>
@@ -16,8 +21,4 @@
         <input type="submit" name="submit" value="Login">
     </form>
 </body>
-</html
-
-
-
-
+</html>
